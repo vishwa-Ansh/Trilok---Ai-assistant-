@@ -96,7 +96,7 @@ export default function Header() {
         <button
           type="button"
           onClick={() => setMobileMenu((prev) => !prev)}
-          className="flex h-10 w-10 items-center justify-center rounded-xl border border-black/10 bg-white md:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-xl border border-black/10 bg-white md:hidden text-black"
           aria-label={mobileMenu ? "Close menu" : "Open menu"}
           aria-expanded={mobileMenu}
         >
@@ -113,7 +113,7 @@ export default function Header() {
             <Link
               href="/#features"
               onClick={closeMenu}
-              className="rounded-xl px-3 py-3 text-sm font-medium"
+              className="rounded-xl px-3 py-3 text-sm font-medium text-black"
             >
               Features
             </Link>
@@ -121,7 +121,7 @@ export default function Header() {
             <Link
               href="/download"
               onClick={closeMenu}
-              className="rounded-xl px-3 py-3 text-sm font-medium"
+              className="rounded-xl px-3 py-3 text-sm font-medium text-black"
             >
               Download
             </Link>
@@ -129,7 +129,7 @@ export default function Header() {
             <Link
               href="/models"
               onClick={closeMenu}
-              className="rounded-xl px-3 py-3 text-sm font-medium"
+              className="rounded-xl px-3 py-3 text-sm font-medium text-black"
             >
               Models
             </Link>
@@ -137,7 +137,7 @@ export default function Header() {
             <Link
               href="/pricing"
               onClick={closeMenu}
-              className="rounded-xl px-3 py-3 text-sm font-medium"
+              className="rounded-xl px-3 py-3 text-sm font-medium text-black"
             >
               Pricing
             </Link>
@@ -145,7 +145,7 @@ export default function Header() {
             <Link
               href="/about"
               onClick={closeMenu}
-              className="rounded-xl px-3 py-3 text-sm font-medium"
+              className="rounded-xl px-3 py-3 text-sm font-medium text-black"
             >
               About
             </Link>
@@ -155,7 +155,7 @@ export default function Header() {
               <Link
                 href="/login"
                 onClick={closeMenu}
-                className="flex-1 rounded-xl border border-black/10 py-3 text-center text-sm font-semibold"
+                className="flex-1 rounded-xl border border-black/10 py-3 text-center text-sm font-semibold text-black"
               >
                 Log in
               </Link>
