@@ -225,7 +225,7 @@ export default function PlanPage() {
 
                   </div>
 
-                  <p className="mt-12 max-w-md text-3xl font-semibold leading-tight tracking-[-0.05em] sm:text-4xl">
+                  <p className="mt-12 max-w-md text-3xl font-semibold leading-tight tracking-tighter sm:text-4xl">
                     {plan.statement}
                   </p>
 
@@ -292,7 +292,7 @@ export default function PlanPage() {
                 Plan details
               </p>
 
-              <h2 className="mt-5 text-4xl font-semibold leading-[1] tracking-[-0.06em] sm:text-5xl">
+              <h2 className="mt-5 text-4xl font-semibold leading-none tracking-[-0.06em] sm:text-5xl">
                 Everything you need
                 <br />
                 to go further.
@@ -305,7 +305,7 @@ export default function PlanPage() {
               {plan.features.map((feature, index) => (
                 <div
                   key={feature}
-                  className="flex gap-4 border-b border-black/10 py-6 sm:nth-[odd]:border-r sm:nth-[odd]:pr-8 sm:nth-[even]:pl-8"
+                  className="flex gap-4 border-b border-black/10 py-6 sm:odd:border-rhsm:odd:pr-8h-[even]:pl-8"
                 >
                   <span className="text-[9px] tracking-[0.2em] text-black/20">
                     {String(index + 1).padStart(2, "0")}

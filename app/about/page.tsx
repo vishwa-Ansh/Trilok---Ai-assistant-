@@ -218,7 +218,7 @@ export default function AboutPage() {
 
             <div className="relative overflow-hidden rounded-[34px] border border-black/10 bg-black shadow-[0_45px_130px_rgba(0,0,0,0.16)]">
 
-              <div className="relative aspect-[16/8] min-h-[420px] w-full sm:min-h-[540px]">
+              <div className="relative aspect-16/8 min-h-[420px] w-full sm:min-h-[540px]">
 
                 <Image
                   src="/images/trilok_on_.png"

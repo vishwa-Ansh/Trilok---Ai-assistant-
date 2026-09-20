@@ -122,7 +122,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="pointer-events-none absolute left-1/2 top-20 h-[600px] w-[800px] -translate-x-1/2 rounded-full bg-black/[0.055] blur-[120px]" />
+        <div className="pointer-events-none absolute left-1/2 top-20 h-1508w-200anslate-x-1/2 rounded-full bg-bbg-black/5.5r-[120px]" />
 
         <div className="relative mx-auto max-w-6xl">
           <div className="mx-auto max-w-5xl text-center">
@@ -170,9 +170,9 @@ export default function Home() {
           <div className="relative mx-auto mt-24 max-w-5xl">
             <div className="absolute -inset-10 rounded-[50px] bg-black/[0.04] blur-3xl" />
 
-            <div className="relative rounded-[32px] border border-black/10 bg-white/85 p-2 shadow-[0_40px_120px_rgba(0,0,0,0.13)] backdrop-blur">
+            <div className="relative rounded-4xl border border-black/10 bg-white/85 p-2 shadow-[0_40px_120px_rgba(0,0,0,0.13)] backdrop-blur">
               <div className="overflow-hidden rounded-[26px] border border-black/[0.07] bg-[#FAFAF9]">
-                <div className="flex h-16 items-center justify-between border-b border-black/[0.06] px-5 sm:px-7">
+                <div className="flex h-16 items-center justify-between border-b border-black/6 px-5 sm:px-7">
                   <div className="flex items-center gap-3">
                     <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-black text-[9px] font-black text-white">
                       TL
@@ -224,8 +224,8 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="border-t border-black/[0.06] p-4 sm:p-5">
-                  <div className="mx-auto flex max-w-3xl items-center rounded-2xl border border-black/[0.08] bg-white px-4 py-3.5 text-sm text-black/30 shadow-sm">
+                <div className="border-t border-black/6 p-4 sm:p-5">
+                  <div className="mx-auto flex max-w-3xl items-center rounded-2xl border border-black/8 bg-white px-4 py-3.5 text-sm text-black/30 shadow-sm">
                     Ask TL-On anything...
                     <div className="ml-auto flex h-9 w-9 items-center justify-center rounded-xl bg-black text-white">
                       <ArrowRight size={15} />
@@ -708,84 +708,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="relative border-t border-black/[0.07] bg-[#F7F7F5] px-5 py-14 sm:px-8">
-        <div
-          className="pointer-events-none absolute inset-0 opacity-[0.25]"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(0,0,0,0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.045) 1px, transparent 1px)",
-            backgroundSize: "52px 52px",
-            maskImage: "linear-gradient(to bottom, black, transparent)",
-          }}
-        />
-
-        <div className="relative mx-auto max-w-6xl">
-          <div className="flex flex-col gap-12 md:flex-row md:items-start md:justify-between">
-            <div>
-              <div className="flex items-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-black text-xs font-black text-white">
-                  TL
-                </div>
-
-                <div>
-                  <p className="font-bold">TL-On</p>
-                  <p className="text-[10px] text-black/30">
-                    Intelligent AI workspace
-                  </p>
-                </div>
-              </div>
-
-              <p className="mt-5 max-w-xs text-xs leading-6 text-black/40">
-                Intelligence, built around you.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-2 gap-x-16 gap-y-4 text-sm sm:grid-cols-3">
-              <a href="#features" className="text-black/45 transition hover:text-black">
-                Features
-              </a>
-
-              <a href="#models" className="text-black/45 transition hover:text-black">
-                Models
-              </a>
-
-              <a href="#pricing" className="text-black/45 transition hover:text-black">
-                Pricing
-              </a>
-
-              <a href="/download" className="text-black/45 transition hover:text-black">
-                Download
-              </a>
-
-              <a href="/privacy" className="text-black/45 transition hover:text-black">
-                Privacy
-              </a>
-
-              <a href="/terms" className="text-black/45 transition hover:text-black">
-                Terms
-              </a>
-
-              <a href="/help" className="text-black/45 transition hover:text-black">
-                Help
-              </a>
-
-              <a href="/about" className="text-black/45 transition hover:text-black">
-                About
-              </a>
-
-              <a href="/login" className="text-black/45 transition hover:text-black">
-                Log in
-              </a>
-            </div>
-          </div>
-
-          <div className="mt-14 flex flex-col gap-3 border-t border-black/[0.07] pt-6 text-xs text-black/30 sm:flex-row sm:items-center sm:justify-between">
-            <p>© 2026 TL-On. All rights reserved.</p>
-
-            <p>AI for learning, reasoning and creation.</p>
-          </div>
-        </div>
-      </footer>
+     
     </main>
   );
 }

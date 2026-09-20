@@ -114,47 +114,12 @@ export default function DownloadPage() {
 
   return (
     <main className="min-h-screen overflow-hidden bg-[#F7F7F5] text-[#111111]">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
-        <Link
-          href="/"
-          className="text-2xl font-bold tracking-[-0.04em]"
-        >
-          TL-On
-        </Link>
-
-        <div className="hidden items-center gap-8 text-sm text-black/55 md:flex">
-          <Link href="/" className="transition hover:text-black">
-            Home
-          </Link>
-
-          <Link href="/models" className="transition hover:text-black">
-            Models
-          </Link>
-
-          <Link href="/pricing" className="transition hover:text-black">
-            Pricing
-          </Link>
-
-          <Link href="/download" className="text-black">
-            Download
-          </Link>
-        </div>
-
-        <Link
-          href="/login"
-          className="rounded-full bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:bg-black/80"
-        >
-          Get Started
-        </Link>
-      </nav>
-
       <section className="mx-auto max-w-7xl px-6 pb-24 pt-20 lg:px-10 lg:pt-28">
         <div className="mx-auto max-w-4xl text-center">
           <div className="mx-auto mb-6 inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-4 py-2 text-sm text-black/55 shadow-sm">
             <Sparkles size={15} />
             TL-On Mobile
           </div>
-
           <h1 className="text-5xl font-semibold tracking-[-0.055em] sm:text-6xl lg:text-7xl">
             AI that stays
             <br />
@@ -685,26 +650,6 @@ export default function DownloadPage() {
           </Link>
         </div>
       </section>
-
-      <footer className="border-t border-black/10">
-        <div className="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-8 text-sm text-black/40 sm:flex-row sm:items-center sm:justify-between lg:px-10">
-          <p>© 2026 TL-On. All rights reserved.</p>
-
-          <div className="flex gap-6">
-            <Link href="/privacy" className="hover:text-black">
-              Privacy
-            </Link>
-
-            <Link href="/terms" className="hover:text-black">
-              Terms
-            </Link>
-
-            <Link href="/help" className="hover:text-black">
-              Help
-            </Link>
-          </div>
-        </div>
-      </footer>
     </main>
   );
 }
@@ -751,7 +696,6 @@ function Faq({
           +
         </span>
       </summary>
-
       <p className="mt-4 max-w-2xl text-sm leading-7 text-black/50">
         {answer}
       </p>

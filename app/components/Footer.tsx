@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, Sparkles } from "lucide-react";
-import Image from "next/image";
+import Image  from "next/image";
 
 const productLinks = [
   { label: "Features", href: "/#features" },
@@ -23,7 +23,7 @@ const accountLinks = [
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-white/[0.08] bg-[#080808] px-5 py-16 text-white sm:px-8">
+    <footer className="relative overflow-hidden border-t border-white/8 bg-[#080808] px-5 py-16 text-white sm:px-8">
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.13]"
         style={{
@@ -34,14 +34,14 @@ export default function Footer() {
         }}
       />
 
-      <div className="pointer-events-none absolute left-1/2 top-0 h-[400px] w-[700px] -translate-x-1/2 rounded-full bg-white/[0.025] blur-[120px]" />
+      <div className="pointer-events-none absolute left-1/2 top-0 h-100 w-175 -translate-x-1/2 rounded-full bg-white/2.5 blur-[120px]" />
 
       <div className="relative mx-auto max-w-7xl">
         <div className="grid gap-14 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <Link href="/" className="inline-flex items-center gap-3">
               <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/30 text-xs font-black text-black shadow-[0_10px_35px_rgba(255,255,255,0.08)]">
-              <Image src="/images/logo.png" width={50} height={50}/>
+              <Image src="/images/logo.png" width={50} height={50} alt="faild to load logo"/>
               </div>
              
 
@@ -81,7 +81,7 @@ export default function Footer() {
           <FooterColumn title="Account" links={accountLinks} />
         </div>
 
-        <div className="mt-16 border-t border-white/[0.08] pt-7">
+        <div className="mt-16 border-t border-white/8 pt-7">
           <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-xs text-white/25">
               © 2026 Trikol-On. All rights reserved.

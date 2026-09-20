@@ -304,7 +304,7 @@ export default function PricingPage() {
         </p>
 
         <p
-          className={`mt-5 min-h-[56px] text-sm leading-6 ${
+          className={`mt-5 min-h-14 text-sm leading-6 ${
             plan.popular
               ? "text-white/45"
               : "text-black/45"

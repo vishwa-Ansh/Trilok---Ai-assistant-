@@ -13,8 +13,8 @@ export default function Header() {
   };
 
   return (
-    <nav className="fixed left-0 right-0 top-0 z-50 border-b border-black/[0.06] bg-[#F7F7F5]/40 backdrop-blur-xl">
-      <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-5 sm:px-8">
+    <nav className="fixed left-0 right-0 top-0 z-50 border-b border-black/6 bg-[#F7F7F5]/40 backdrop-blur-xl">
+      <div className="mx-auto flex h-18 max-w-7xl items-center justify-between px-5 sm:px-8">
 
         <Link
           href="/"
@@ -106,7 +106,7 @@ export default function Header() {
       </div>
 
       {mobileMenu && (
-        <div className="border-t border-black/[0.06] bg-[#F7F7F5] px-5 pb-6 pt-4 md:hidden">
+        <div className="border-t border-black/6 bg-[#F7F7F5] px-5 pb-6 pt-4 md:hidden">
 
           <div className="flex flex-col gap-2">
 
