@@ -27,13 +27,18 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-     
+      <head>
+        <meta
+          name="google-site-verification"
+          content="aTaaAvqAlPzNOa_GPY3bG5kQzpkaIOIl7fnLDpLwFas"
+        />
+      </head>
       <body className="min-h-full flex flex-col">
-      <Header/>
+        <Header />
         {children}
-      <Footer/>
+        <Footer />
       </body>
-     
+
     </html>
   );
 }
