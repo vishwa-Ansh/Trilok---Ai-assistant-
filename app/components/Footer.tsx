@@ -47,7 +47,7 @@ export default function Footer() {
 
               <div>
                 <p className="text-[17px] font-bold tracking-[-0.4px]">
-                  Trikol-On
+                  Trilok-On
                 </p>
 
                 <p className="mt-0.5 text-[10px] font-medium text-white/30">
@@ -84,7 +84,7 @@ export default function Footer() {
         <div className="mt-16 border-t border-white/8 pt-7">
           <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-xs text-white/25">
-              © 2026 Trikol-On. All rights reserved.
+              © 2026 Trilok-On. All rights reserved.
             </p>
 
             <div className="flex items-center gap-2 text-xs text-white/25">

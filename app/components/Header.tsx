@@ -23,7 +23,7 @@ export default function Header() {
         >
           <Image
             src="/images/logo.png"
-            alt="Trikol-On"
+            alt="Trilok-On"
             width={50}
             height={50}
             className="object-contain"
@@ -31,7 +31,7 @@ export default function Header() {
           />
 
           <span className="text-[18px] font-bold tracking-[-0.5px] text-black">
-            Trikol-On
+            Trilok-On
           </span>
         </Link>
 

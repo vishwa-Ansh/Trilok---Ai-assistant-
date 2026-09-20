@@ -11,7 +11,7 @@ const planData = {
     price: "₹0",
     period: "",
     description:
-      "Experience the core of Trikol-On for everyday questions, learning and exploration.",
+      "Experience the core of Trilok-On for everyday questions, learning and exploration.",
     statement: "Intelligence, without the commitment.",
     features: [
       "Core AI conversations",
@@ -72,7 +72,7 @@ export default function PlanPage() {
       <main className="flex min-h-screen items-center justify-center bg-[#F5F4F0] px-6">
         <div className="text-center">
           <p className="text-[10px] uppercase tracking-[0.25em] text-black/35">
-            Trikol-On
+            Trilok-On
           </p>
 
           <h1 className="mt-5 text-5xl font-semibold tracking-[-0.06em]">
@@ -116,14 +116,14 @@ export default function PlanPage() {
           <div className="h-9 w-9 overflow-hidden rounded-xl">
             <img
               src="/images/tl-on-logo-v2.png"
-              alt="Trikol-On"
+              alt="Trilok-On"
               className="h-full w-full object-contain"
             />
           </div>
 
           <div>
             <div className="text-[19px] font-semibold tracking-[-0.055em]">
-              Trikol-On
+              Trilok-On
             </div>
 
             <div className="text-[8px] uppercase tracking-[0.24em] text-black/35">
@@ -220,7 +220,7 @@ export default function PlanPage() {
                     </div>
 
                     <span className="text-[9px] uppercase tracking-[0.25em] text-white/30">
-                      Trikol-On / {plan.name}
+                      Trilok-On / {plan.name}
                     </span>
 
                   </div>
@@ -334,7 +334,7 @@ export default function PlanPage() {
             <div>
 
               <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-black/30">
-                Trikol-On
+                Trilok-On
               </p>
 
               <h2 className="mt-6 max-w-2xl text-5xl font-semibold leading-[0.95] tracking-[-0.065em] sm:text-6xl">
@@ -390,7 +390,7 @@ export default function PlanPage() {
             </div>
 
             <p className="mt-7 text-[9px] uppercase tracking-[0.3em] text-white/30">
-              {plan.name} / Trikol-On
+              {plan.name} / Trilok-On
             </p>
 
             <h2 className="mx-auto mt-5 max-w-3xl text-4xl font-semibold tracking-[-0.06em] sm:text-6xl">
@@ -398,7 +398,7 @@ export default function PlanPage() {
             </h2>
 
             <p className="mx-auto mt-6 max-w-xl text-sm leading-7 text-white/40">
-              Step into Trikol-On and make intelligence part of the way
+              Step into Trilok-On and make intelligence part of the way
               you learn, think and create.
             </p>
 
@@ -431,13 +431,13 @@ export default function PlanPage() {
             <div className="h-7 w-7 overflow-hidden rounded-lg">
               <img
                 src="/images/tl-on-logo-v2.png"
-                alt="Trikol-On"
+                alt="Trilok-On"
                 className="h-full w-full object-contain"
               />
             </div>
 
             <span>
-              © 2026 Trikol-On
+              © 2026 Trilok-On
             </span>
 
           </div>

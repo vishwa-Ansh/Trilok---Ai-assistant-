@@ -14,7 +14,7 @@ import { useState } from "react";
 const plans = [
     {
         name: "Free",
-        description: "Explore Trikol-On and experience the essentials.",
+        description: "Explore Trilok-On and experience the essentials.",
         monthly: 0,
         yearly: 0,
         popular: false,
@@ -65,14 +65,14 @@ const plans = [
 
 const faqs = [
     {
-        question: "Can I use Trikol-On for free?",
+        question: "Can I use Trilok-On for free?",
         answer:
-            "Yes. The Free plan gives you access to the core Trikol-On experience without requiring a paid subscription.",
+            "Yes. The Free plan gives you access to the core Trilok-On experience without requiring a paid subscription.",
     },
     {
         question: "Can I change my plan later?",
         answer:
-            "Yes. You can change your subscription as your usage changes. Your account and conversations remain associated with your Trikol-On account.",
+            "Yes. You can change your subscription as your usage changes. Your account and conversations remain associated with your Trilok-On account.",
     },
     {
         question: "What is included in Plus?",
@@ -92,7 +92,7 @@ const faqs = [
     {
         question: "Will my plan work on both web and mobile?",
         answer:
-            "Yes. Your Trikol-On account is designed to work across supported web and mobile experiences.",
+            "Yes. Your Trilok-On account is designed to work across supported web and mobile experiences.",
     },
 ];
 
@@ -135,7 +135,7 @@ export default function PricingPage() {
                     <div className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-xl">
                         <img
                             src="/images/tl-on-logo-v2.png"
-                            alt="Trikol-On"
+                            alt="Trilok-On"
                             className="h-full w-full object-contain"
                         />
                     </div>
@@ -143,7 +143,7 @@ export default function PricingPage() {
                     <div>
 
                         <div className="text-[19px] font-semibold tracking-[-0.055em]">
-                            Trikol-On
+                            Trilok-On
                         </div>
 
                         <div className="text-[8px] uppercase tracking-[0.24em] text-black/35">
@@ -217,7 +217,7 @@ export default function PricingPage() {
                         </h1>
 
                         <p className="mx-auto mt-8 max-w-2xl text-base leading-8 text-black/50 sm:text-lg">
-                            Choose the Trikol-On experience that fits the way you
+                            Choose the Trilok-On experience that fits the way you
                             learn, work, create and explore with AI.
                         </p>
 
@@ -511,7 +511,7 @@ export default function PricingPage() {
                         </h2>
 
                         <p className="mx-auto mt-6 max-w-xl text-sm leading-7 text-black/40">
-                            Everything you need to understand the Trikol-On plans.
+                            Everything you need to understand the Trilok-On plans.
                         </p>
 
                     </div>
@@ -594,7 +594,7 @@ export default function PricingPage() {
                         </p>
 
                         <h2 className="mx-auto mt-6 max-w-3xl text-5xl font-semibold leading-[0.95] tracking-[-0.065em] sm:text-7xl">
-                            Start with Trikol-On.
+                            Start with Trilok-On.
                         </h2>
 
                         <p className="mx-auto mt-7 max-w-xl text-sm leading-7 text-white/40 sm:text-base">
@@ -634,14 +634,14 @@ export default function PricingPage() {
 
                             <img
                                 src="/images/tl-on-logo-v2.png"
-                                alt="Trikol-On"
+                                alt="Trilok-On"
                                 className="h-full w-full object-contain"
                             />
 
                         </div>
 
                         <span>
-                            © 2026 Trikol-On
+                            © 2026 Trilok-On
                         </span>
 
                     </div>

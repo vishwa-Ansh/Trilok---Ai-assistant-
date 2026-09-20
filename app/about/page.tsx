@@ -105,7 +105,7 @@ export default function AboutPage() {
           <div className="relative h-9 w-9 overflow-hidden rounded-xl">
             <Image
               src="/images/logo.png"
-              alt="Trikol-On"
+              alt="Trilok-On"
               fill
               className="object-contain"
               sizes="36px"
@@ -114,7 +114,7 @@ export default function AboutPage() {
 
           <div>
             <div className="text-[19px] font-semibold tracking-[-0.055em]">
-              Trikol-On
+              Trilok-On
             </div>
 
             <div className="text-[8px] uppercase tracking-[0.24em] text-black/35">
@@ -170,7 +170,7 @@ export default function AboutPage() {
 
               <div className="mb-8 inline-flex items-center gap-2 border border-black/10 bg-white/50 px-3 py-2 text-[10px] font-medium uppercase tracking-[0.24em] text-black/45">
                 <span className="h-1.5 w-1.5 rounded-full bg-black" />
-                The philosophy of Trikol-On
+                The philosophy of Trilok-On
               </div>
 
               <h1 className="max-w-5xl text-[58px] font-semibold leading-[0.88] tracking-[-0.075em] sm:text-7xl lg:text-[104px]">
@@ -192,7 +192,7 @@ export default function AboutPage() {
             <div className="max-w-md pb-2 lg:ml-auto">
 
               <p className="text-lg leading-8 tracking-[-0.015em] text-black/60">
-                Trikol-On is an AI platform built around a simple idea:
+                Trilok-On is an AI platform built around a simple idea:
                 intelligence becomes more useful when you can
                 <span className="font-medium text-black">
                   {" "}see, think and create
@@ -244,7 +244,7 @@ export default function AboutPage() {
                   <span className="h-1.5 w-1.5 rounded-full bg-white shadow-[0_0_14px_white]" />
 
                   <span className="text-[9px] uppercase tracking-[0.3em] text-white/60">
-                    Trikol-On / Philosophy
+                    Trilok-On / Philosophy
                   </span>
 
                 </div>
@@ -284,7 +284,7 @@ export default function AboutPage() {
             <div className="mt-5 flex flex-col gap-2 px-1 text-[11px] text-black/35 sm:flex-row sm:items-center sm:justify-between">
 
               <span>
-                A visual expression of the Trikol-On philosophy.
+                A visual expression of the Trilok-On philosophy.
               </span>
 
               <span className="uppercase tracking-[0.18em]">
@@ -324,7 +324,7 @@ export default function AboutPage() {
             <div className="max-w-3xl">
 
               <p className="text-2xl leading-[1.45] tracking-[-0.03em] text-black/75 sm:text-3xl">
-                Trikol-On takes inspiration from the idea of
+                Trilok-On takes inspiration from the idea of
                 <span className="text-black">
                   {" "}three dimensions of existence, perception and awareness.
                 </span>
@@ -364,7 +364,7 @@ export default function AboutPage() {
 
               <p className="mt-10 max-w-2xl text-base leading-8 text-black/45">
                 Technology changes quickly. The ideas behind meaningful
-                technology can be much older. Trikol-On takes that contrast
+                technology can be much older. Trilok-On takes that contrast
                 seriously: ancient philosophical inspiration translated
                 into a modern interface for learning, reasoning and creation.
               </p>
@@ -402,7 +402,7 @@ export default function AboutPage() {
             </div>
 
             <p className="max-w-md text-sm leading-7 text-black/45">
-              Trikol-On translates the idea of three dimensions into
+              Trilok-On translates the idea of three dimensions into
               three practical stages of working with intelligence.
             </p>
 
@@ -498,7 +498,7 @@ export default function AboutPage() {
               </h2>
 
               <p className="mt-8 max-w-md text-base leading-8 text-white/40">
-                Trikol-On brings conversation, reasoning, learning,
+                Trilok-On brings conversation, reasoning, learning,
                 coding and creation into one focused AI environment.
               </p>
 
@@ -558,7 +558,7 @@ export default function AboutPage() {
       </section>
 
       {/* =========================================================
-          WHY TRIKOL-ON
+          WHY Trilok-On
       ========================================================= */}
 
       <section className="relative z-10 border-b border-black/10 bg-[#F5F4F0]">
@@ -570,7 +570,7 @@ export default function AboutPage() {
             <div>
 
               <p className="text-[10px] font-semibold uppercase tracking-[0.25em] text-black/35">
-                04 / Why Trikol-On
+                04 / Why Trilok-On
               </p>
 
               <h2 className="mt-6 max-w-xl text-5xl font-semibold leading-[0.98] tracking-[-0.065em] sm:text-6xl">
@@ -651,7 +651,7 @@ export default function AboutPage() {
             <div className="max-w-xl lg:ml-auto">
 
               <p className="text-xl leading-9 tracking-[-0.02em] text-black/65">
-                Trikol-On is designed around a balance between
+                Trilok-On is designed around a balance between
                 <span className="font-medium text-black">
                   {" "}depth and simplicity.
                 </span>
@@ -745,7 +745,7 @@ export default function AboutPage() {
             <div className="max-w-3xl">
 
               <p className="text-2xl leading-[1.45] tracking-[-0.03em] text-black/70 sm:text-3xl">
-                Trikol-On is not being built around a single moment in
+                Trilok-On is not being built around a single moment in
                 AI. It is being built as an evolving environment for
                 how people interact with intelligence.
               </p>
@@ -847,7 +847,7 @@ export default function AboutPage() {
             </h2>
 
             <p className="mx-auto mt-7 max-w-xl text-sm leading-7 text-white/40 sm:text-base">
-              Discover Trikol-On — an AI experience built around
+              Discover Trilok-On — an AI experience built around
               perception, intelligence and creation.
             </p>
 
@@ -857,7 +857,7 @@ export default function AboutPage() {
                 href="/download"
                 className="flex items-center gap-2 bg-white px-6 py-3.5 text-sm font-semibold text-black transition hover:bg-white/90"
               >
-                Explore Trikol-On
+                Explore Trilok-On
                 <ArrowRight size={16} />
               </Link>
 
@@ -890,7 +890,7 @@ export default function AboutPage() {
 
               <Image
                 src="/images/tl-on-logo-v2.png"
-                alt="Trikol-On"
+                alt="Trilok-On"
                 fill
                 className="object-contain"
                 sizes="28px"
@@ -899,7 +899,7 @@ export default function AboutPage() {
             </div>
 
             <span>
-              © 2026 Trikol-On
+              © 2026 Trilok-On
             </span>
 
           </div>
